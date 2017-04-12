@@ -1,0 +1,27 @@
+{
+  "name": "dcos-logging-node",
+  "version": "0.0.1",
+  "description": "Node.js client library lightweigth for DCOS Logging API. ES6",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owndann/dcos-logging-node.git"
+  },
+  "keywords": [
+    "node.js",
+    "dcos",
+    "logging",
+    "marathon",
+    "javascript",
+    "library"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/owndann/dcos-logging-node/issues"
+  },
+  "homepage": "https://github.com/owndann/dcos-logging-node#readme"
+}
