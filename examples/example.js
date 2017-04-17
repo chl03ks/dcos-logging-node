@@ -17,18 +17,18 @@ dcosLogging.range.get(null, 'text/event-stream', true)
         // Forces the stream to receive a String instead of a Buffer object
         stream.setEncoding('utf-8');
         // Event that receives data from DCOS
-        stream.on('data',(chunk) => {
+        stream.on('data', (chunk) => {
             // Printing the chunk received from the stream
             console.log(chunk);
         });
 
         // Last chunk, it runs when the connection is closed
-        stream.on('end',() => {
+        stream.on('end', () => {
             // Here you do what you need when it ends...
         });
 
         // If for some reason we receive an error while connected, we can handle it here
-        stream.on('errror',(err) => {
+        stream.on('errror', (err) => {
             // Error handling...
         })
     }).catch((err) => console.log(err));
