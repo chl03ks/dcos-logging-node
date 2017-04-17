@@ -75,21 +75,21 @@ dcosLogging.range.get(null, 'text/event-stream', true)
 
 ## Methods
 
-> Note: If the AcceptHeader is `text/event-stream'` you will need to set the `RequestStream` param to false
+> Note: If the AcceptHeader is `text/event-stream` you will need to set the `RequestStream` param to false
 
 ### Range
 
 
-- get(agentId, AcceptHeader, RequestStream, parameters)
-- download(agentId, AcceptHeader, requestStream, parameters)
-- framework(agentId,frameworkId, executorId, containerId, AcceptHeader, requestStream, parameters)
-- frameworkDownload(agentId, frameworkId, executorId, containerId, AcceptHeader, requestStream , parameters)
+- `get(agentId, acceptHeader, requestStream, parameters)`
+- `download(agentId, acceptHeader, requestStream, parameters)`
+- `framework(agentId,frameworkId, executorId, containerId, acceptHeader, requestStream, parameters)`
+- `frameworkDownload(agentId, frameworkId, executorId, containerId, acceptHeader, requestStream , parameters)`
 
 ### Stream
 
--  get(agentId, AcceptHeader, requestStream, parameters)
--  framework(agentId, frameworkId, executorId, containerId, AcceptHeader, requestStream)
+-  `get(agentId, AcceptHeader, requestStream, parameters)`
+-  `framework(agentId, frameworkId, executorId, containerId, acceptHeader, requestStream)`
 
 ### Fields
 
-- get(agentId, field, AcceptHeader, requestStream, parameters)
+- `get(agentId, field, acceptHeader, requestStream, parameters)`
