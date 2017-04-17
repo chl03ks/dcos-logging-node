@@ -1,6 +1,6 @@
 {
   "name": "dcos-logging-node",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Node.js client library lightweigth for DCOS Logging API. ES6",
   "main": "index.js",
   "scripts": {
